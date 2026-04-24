@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+            <!-- Tasks & Assignments
+Project: Quiz App
+
+Build a simple Quiz App that presents multiple-choice questions to the user and calculates their score at the end. This project will help you practice working with arrays, objects, functions, etc.
+
+Features to Implement
+
+1. Display Questions
+
+•⁠ ⁠Show one question at a time with multiple-choice answers.
+
+•⁠ ⁠Allow the user to select an answer.
+
+2. Track Score
+
+•⁠ ⁠Keep track of the user's score based on correct answers.
+
+3. Progress Indicator
+
+•⁠ ⁠Show the user which question they are on (e.g., "Question 3 of 10").
+
+4. Results Screen
+
+•⁠ ⁠Display the user's final score at the end of the quiz. -->
+
+    <div class="container">
+    <h1 class="app-title">Simple Quiz App</h1>
+    
+    <div class="content">
+        <h2 id="progress">Question 1 of 10</h2>
+        
+        <div id="quiz-box">
+            <h3 id="question"></h3>
+            <div id="options"></div>                   
+            <button id="nextBtn">Next</button>
+        </div>
+        
+        <div id="result-box" class="hidden">
+            <h2>Quiz Completed!</h2>
+            <p id="finalScore"></p>
+            <button onclick="location.reload()">Restart</button>
+        </div>
+    </div>
+</div>
+
+
+<!-- # 🧠 Quiz App
+
+A simple multiple-choice Quiz Application built with HTML, CSS, and JavaScript.  
+This project helps practice core frontend concepts such as DOM manipulation, arrays, objects, and application state management.
+
+---
+
+## 📌 Features
+
+- Display one question at a time
+- Multiple-choice answer selection
+- Tracks user score in real time
+- Progress indicator (e.g. Question 2 of 5)
+- Final results screen showing total score
+- Option to restart the quiz
+
+---
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- Vanilla JavaScript (ES6)
+
+---
+
+## 📁 Project Structure
+quiz-app/
+│
+├── index.html # Main HTML structure
+├── style.css # Styling for the app
+└── script.js # Quiz logic and interactivity
+
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone or download the project folder
+2. Open the folder in your code editor (e.g. VS Code)
+3. Open `index.html` in your browser
+4. Start answering questions!
+
+---
+
+## 🧠 Key Concepts Practiced
+
+- Arrays and Objects (for storing questions)
+- DOM Manipulation (updating UI dynamically)
+- Event Handling (button clicks)
+- Conditional Logic (checking answers)
+- State Management (tracking score and progress)
+- Dynamic UI Rendering
+
+---
+
+## 🔄 Future Improvements
+
+- Add timer per question ⏱️
+- Randomize questions and answers
+- Add difficulty levels
+- Store high scores using localStorage
+- Build a React version of the app
+- Add animations and transitions
+
+---
+
+## 📸 Preview
+
+*(Optional: Add screenshot here)*
+
+---
+
+## 👨‍💻 Author
+
+Built as a learning project to strengthen frontend development fundamentals By (OgheneCodes)
+
+---
+
+## 📜 License
+
+This project is open-source and free to use for learning purposes. -->
+
+    <script src="script.js"></script> 
+</body>
+</html>

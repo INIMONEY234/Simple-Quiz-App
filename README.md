@@ -12,7 +12,7 @@ This project helps practice core frontend concepts such as DOM manipulation, arr
 - Display one question at a time
 - Multiple-choice answer selection
 - Tracks user score in real time
-- Progress indicator (e.g. Question 2 of 5)
+- Progress indicator (e.g. Question 2 of 10)
 - Final results screen showing total score
 - Option to restart the quiz
 
@@ -67,15 +67,10 @@ quiz-app/
 
 ---
 
-## 📸 Preview
-
-*(Optional: Add screenshot here)*
-
----
 
 ## 👨‍💻 Author
 
-Built as a learning project to strengthen frontend development fundamentals By (OgheneCodes)
+Built as a learning project to strengthen frontend development fundamentals By INIMONEY TECH BOSS
 
 ---
 
